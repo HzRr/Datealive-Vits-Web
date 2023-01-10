@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <style>
+      /* 默认背景 */
+      body {
+        background-image: url('desktop-bg.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+      /* 移动设备背景 */
+      @media only screen and (max-width: 600px) {
+        body {
+          background-image: url('mobile-bg.png');
+        }
+      }
+
+      /* iframe 样式 */
+      iframe {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        height: 600px;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="https://hzrr-dal-audio-inference.hf.space/"></iframe>
+  </body>
+</html>
